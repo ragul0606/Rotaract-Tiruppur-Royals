@@ -36,6 +36,9 @@ body {
 }
 
 @media screen and (max-width: 986px) {
+  body {
+    overflow-x: hidden !important;
+  }
   .section-pg1 {
     flex-direction: column;
   }
@@ -89,27 +92,4 @@ body {
   .card-text {
     font-size: 0.5rem;
   }
-}
-
-.section-pg3 {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 1.5rem !important;
-}
-
-.dummy-dir {
-  padding: 80px;
-  background-color: black;
-}
-
-li {
-  list-style: none;
-}
-
-ul {
-  list-style: none;
 }
