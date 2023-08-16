@@ -49,6 +49,16 @@ body {
   }
   .section-pg1 {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .secOne-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 !important;
   }
   .club-logo {
     width: 36rem;
@@ -77,7 +87,7 @@ body {
 
 @media screen and (max-width: 986px) {
   .section-pg2 {
-    flex-direction: row;
+    flex-direction: column;
     background-image: url(./Images/mobile-bg1.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -85,12 +95,13 @@ body {
   }
 
   .card {
-    width: 12rem !important;
+    width: 10rem !important;
     height: 20rem !important;
   }
 
   .card-img-top {
-    width: 12rem;
+    width: 9.95rem;
+    height: 20rem !important;
   }
 
   .card-title {
