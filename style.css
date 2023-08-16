@@ -110,12 +110,12 @@ body {
 
 @media screen and (max-width: 986px) {
   .board {
-    /* flex-direction: column; */
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 
   .sec-3-img {
-    width: 11rem;
+    width: 10rem;
   }
 }
