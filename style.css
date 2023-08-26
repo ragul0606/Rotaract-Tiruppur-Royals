@@ -140,3 +140,68 @@ body {
   color: black;
   /* background-color: aqua; */
 }
+
+.members,
+.aboutus,
+.updates {
+  width: 100%;
+  height: 100vh;
+}
+
+.members {
+  background-image: url(./Images/work-in-progress-pc.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutus {
+  background-image: url(./Images/green-work-in-progress.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.updates {
+  background-image: url(./Images/wup-3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 986px) {
+  .members {
+    background-image: url(./Images/work-in-progress-mobile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .aboutus {
+    background-image: url(./Images/wup-m-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .updates {
+    background-image: url(./Images/wup-m-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.foo-anch {
+  display: flex;
+  gap: 0.5rem;
+}
