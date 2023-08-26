@@ -112,3 +112,18 @@ body {
     font-size: 0.5rem;
   }
 }
+
+.boardOfDirec {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.extra-card {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
